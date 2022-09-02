@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            Nome: <br>
+            <input type="text" maxlength="20"><br>
+            Endereço: <br>
+            <input type="text" maxlength="45"><br>
+            E-mail: <br>
+            <input type="text" maxlength="30"><br>
+            Sexo: <br>
+            <input type="radio" name="sex" value="male"> Masculino <br>
+            <input type="radio" name="sex" value="male"> Feminino <br>
+        </fieldset>
+        <fieldset>
+            <legend>Escolaridade</legend>
+            <select name="Escolaridade">
+                <option value="g"> Graduação</option>
+                <option value="e"> Especialização</option>
+                <option value="m"> Mestrado</option>
+                <option value="d"> Doutorado</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Áreas de Interesse</legend>
+            <input type="checkbox" name="app" value="1"> Aplicações para Web <br>
+            <input type="checkbox" name="bd" value="2"> Banco de dados <br>
+            <input type="checkbox" name="es" value="3"> Engenharia de Software <br>
+            <input type="checkbox" name="ds" value="4"> Desenvolvimento de Sistemas <br>
+            <input type="checkbox" name="gp" value="5"> Gerência de Projetos
+        </fieldset>
+
+        <fieldset>
+            <legend>Finalizar Cadastro</legend>
+            <a href="pagina_confirmacao.html"><input type="button" value="Enviar"></a>
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+</body>
+</html>
